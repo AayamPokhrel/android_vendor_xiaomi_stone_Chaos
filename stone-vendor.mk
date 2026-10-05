@@ -185,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
+    vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.2-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/stone/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
@@ -527,6 +528,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libxml \
     libmisoundfx \
+    vendor.qti.hardware.perf@2.0_vendor \
+    vendor.qti.hardware.perf@2.1_vendor \
+    vendor.qti.hardware.perf@2.2_vendor \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
     vendor.qti.hardware.vpp@1.3 \
@@ -1062,6 +1066,10 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
     vendor_lib_rfsa_adsp_misound_res_bin \
     vendor_lib_rfsa_adsp_misound_res_headphone_bin \
+    vendor.qti.hardware.perf@2.0 \
+    vendor.qti.hardware.perf@2.1 \
+    vendor.qti.hardware.perf@2.2 \
+    vendor.qti.hardware.perf@2.3 \
     com.qualcomm.qti.dpm.api@1.0 \
     fm_helium \
     lib-imsvideocodec \
@@ -1146,6 +1154,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor.qti.hardware.perf@2.2-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
