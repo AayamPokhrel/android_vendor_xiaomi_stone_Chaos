@@ -189,6 +189,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/stone/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/xiaomi/stone/proprietary/vendor/etc/mdss_dsi_panel_m17_38_0c_0a_fhdp_dsc_vid_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mdss_dsi_panel_m17_38_0c_0a_fhdp_dsc_vid_mi.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
+    vendor/xiaomi/stone/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/xiaomi/stone/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/xiaomi/stone/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/stone/proprietary/vendor/etc/qcril_database/qcrilNr.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/qcrilNr.db \
     vendor/xiaomi/stone/proprietary/vendor/etc/qcril_database/upgrade/config/10.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/10.0_config.sql \
@@ -500,6 +502,8 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libmdmdetect \
     libnetmgr \
+    libperfconfig \
+    libperfgluelayer \
     libqcci_legacy \
     libqcmaputils \
     libqdi \
@@ -515,6 +519,7 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqrtr \
+    libqti-util \
     librmnetctl \
     libthermalclient \
     libxml \
@@ -1056,10 +1061,6 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_misound_karaokemix_res_bin \
     vendor_lib_rfsa_adsp_misound_res_bin \
     vendor_lib_rfsa_adsp_misound_res_headphone_bin \
-    vendor.qti.hardware.perf@2.0 \
-    vendor.qti.hardware.perf@2.1 \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.3 \
     CACertService \
     CneApp \
     IWlanService \
